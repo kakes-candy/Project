@@ -1,0 +1,115 @@
+<!doctype html>
+    <html lang="">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Managament-Info voor HSK en Interapy">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HSK Management-info</title>
+
+
+        <!-- Page styles -->
+        <link rel="stylesheet" href="/styles/normalize.css">
+        <!--<link rel="stylesheet" href="/styles/app.css">-->
+        <link rel="stylesheet" href="/styles/kaart.css">
+        
+        <!-- build:js /scripts/lib_foundation/vendor/modernizr.js -->
+        <script src="/scripts/lib_foundation/vendor/modernizr.js"></script>
+        <!-- endbuild -->
+        
+        
+        
+        <!-- build:js /scripts/d3/d3.min.js -->
+        <script src="/scripts/d3/d3.js"></script>
+        <!-- endbuild -->
+        
+        <!-- build:js /scripts/d3/topojson.v1.min.js -->
+        <script src="/scripts/d3/topojson.v1.min.js"> </script>
+        <!-- endbuild -->
+        
+
+
+      </head>
+      <body>
+    
+        
+        <div class='background'>
+         <div class="row">
+          <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+              <!-- Title Area -->
+              <li class="name">
+                <h1>
+                  <a href="#">
+                    Management<strong>Info</strong>
+                  </a>
+                </h1>
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+            </ul>
+
+            <section class="top-bar-section">
+              <!-- Right Nav Section -->
+              <ul class="right">
+                <li class="divider"></li>
+                <li>
+                  <a href="#">Rapportages</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="#">Over deze site</a></li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </section>
+          </nav>
+
+
+        </div> 
+        </div>  
+        
+        
+        <div class="row">
+           <br>
+            <div class="small-12 columns">
+                <h3>Instroom per gemeente</h3>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="large-7 medium-7 columns" id="container-map"></div>
+            <div class="large-5 medium-5 columns" id="container-table" >tabel</div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+          <!-- End Main Content and Sidebar -->
+
+            <!-- build:js /scripts/lib_foundation/vendor/jquery.js -->
+            <script src="/scripts/lib_foundation/vendor/jquery.js"></script>
+            <!-- endbuild -->
+            
+            <!-- build:js /scripts/lib_foundation/vendor/foundation.min.js -->
+            <script src="/scripts/lib_foundation/foundation.min.js"></script>
+            <!-- endbuild -->
+            
+            <script> $(document).foundation();</script>
+
+        <!-- build:js /paginas/testpagina/libs/kaart_gemeenten.js -->
+        <script src="/paginas/testpagina/libs/kaart_gemeenten.js"></script>
+        <!-- endbuild -->
+     
+     
+      </body>
+    </html>
